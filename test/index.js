@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 let index = 0;
 console.log(index++);
 

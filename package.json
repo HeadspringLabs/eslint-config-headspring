@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-headspring",
   "description": "Headspring eslint config, with dependencies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Brandon Pugh <bp@brandonpugh.com>",
   "bin": {
@@ -12,6 +12,7 @@
   },
   "files": [
     "bin",
+    "index.js",
     ".eslintrc.js"
   ],
   "dependencies": {
@@ -29,6 +30,7 @@
   },
   "keywords": [
     "eslint",
+    "headspring",
     "eslint-config"
   ]
 }

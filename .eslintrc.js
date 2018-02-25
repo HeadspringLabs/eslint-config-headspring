@@ -1,4 +1,5 @@
 module.exports = {
+  "parser": "babel-eslint",
   "extends": [
     "eslint-config-airbnb",
     "plugin:import/react",
@@ -28,6 +29,8 @@ module.exports = {
     'max-len': 0,
     'react/forbid-prop-types': 0,
     'react/no-unescaped-entities': 0,
+
+    "react/require-default-props": 0,
 
     // Enable a11y rules on per project basis
     'jsx-a11y/anchor-has-content': ['off', { components: [''] }],

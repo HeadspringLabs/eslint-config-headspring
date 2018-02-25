@@ -6,4 +6,10 @@ Provides an `eslint` command which runs the real ESLint with this config's `.esl
 
 Installing an `eslint` command means tools which look for `node_modules/.bin/eslint` will find and run what is effectively a preconfigured version - for example, [VS Code ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) will successfully lint with this config just by having it installed in a project.
 
+If using **npm 5+**, use this shortcut
+
+  ```sh
+  npx install-peerdeps --dev eslint-config-airbnb
+  ```
+
 ## MIT Licensed
